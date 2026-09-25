@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://culturescatalyst.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.com/" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/founder-and-ceo-message</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/founder-and-ceo-message" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/founder-and-ceo-message" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/ar/founder-and-ceo-message</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/founder-and-ceo-message" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/founder-and-ceo-message" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/getp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/getp" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/getp" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/ar/getp</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/getp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/getp" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/business-digital-card</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/business-digital-card" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/business-digital-card" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/ar/business-digital-card</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/business-digital-card" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/business-digital-card" />
+  </url>
+
+  <url>
+    <loc>https://culturescatalyst.com/under-construction</loc>
+  </url>
+
+</urlset>
