@@ -4,13 +4,13 @@
 
 ### Transforming Cultures, Inspiring Excellence, Embracing Change
 
+<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
+
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)]()
 [![Bilingual](https://img.shields.io/badge/i18n-EN%20%7C%20AR-blue?style=flat-square)]()
 [![Responsive](https://img.shields.io/badge/Design-Responsive-teal?style=flat-square)]()
 [![PWA Ready](https://img.shields.io/badge/PWA-Ready-purple?style=flat-square)]()
 [![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-orange?style=flat-square)]()
-
-<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
 
 </div>
 
