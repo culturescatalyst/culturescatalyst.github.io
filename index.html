@@ -18,10 +18,22 @@
     <meta property="og:image" content="/og-default.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="/og-default.jpg">
-  <script type="module" crossorigin src="/assets/index-CBVHYBTp.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DatfllJY.css">
+  <script type="module" crossorigin src="/assets/index-DIAD9cLM.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-ChzgDeck.css">
 </head>
   <body>
+    <script>
+      // GitHub Pages SPA fallback: restore the intended route from 404.html redirect
+      (function () {
+        var redirect = sessionStorage.redirect;
+        if (redirect) {
+          delete sessionStorage.redirect;
+          // Replace the URL with the original deep link so BrowserRouter picks it up
+          var url = redirect.replace(location.origin, '');
+          history.replaceState(null, '', url);
+        }
+      })();
+    </script>
     <div id="root"></div>
   </body>
 </html>

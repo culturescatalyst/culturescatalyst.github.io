@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CultureCatalyst</title>
+    <script>
+      // GitHub Pages SPA fallback (404.html)
+      // When a deep link is accessed directly, GitHub Pages serves this 404 page.
+      // Save the intended URL so index.html can restore the route via history.replaceState.
+      (function () {
+        sessionStorage.redirect = location.href;
+        // Redirect to the app root (custom domain) or project-page base
+        var base = '/';
+        location.replace(base);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting…</p>
+  </body>
+</html>

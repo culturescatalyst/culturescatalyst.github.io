@@ -3,56 +3,51 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://culturescatalyst.com/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.com/" />
+    <loc>https://culturescatalyst.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.github.io/" />
+  </url>
+  <url>
+    <loc>https://culturescatalyst.github.io/ar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/" />
   </url>
 
   <url>
-    <loc>https://culturescatalyst.com/ar</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/" />
+    <loc>https://culturescatalyst.github.io/founder-and-ceo-message</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/founder-and-ceo-message" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/founder-and-ceo-message" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.github.io/founder-and-ceo-message" />
+  </url>
+  <url>
+    <loc>https://culturescatalyst.github.io/ar/founder-and-ceo-message</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/founder-and-ceo-message" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/founder-and-ceo-message" />
   </url>
 
   <url>
-    <loc>https://culturescatalyst.com/founder-and-ceo-message</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/founder-and-ceo-message" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/founder-and-ceo-message" />
+    <loc>https://culturescatalyst.github.io/getp</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/getp" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/getp" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.github.io/getp" />
+  </url>
+  <url>
+    <loc>https://culturescatalyst.github.io/ar/getp</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/getp" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/getp" />
   </url>
 
   <url>
-    <loc>https://culturescatalyst.com/ar/founder-and-ceo-message</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/founder-and-ceo-message" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/founder-and-ceo-message" />
+    <loc>https://culturescatalyst.github.io/business-digital-card</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/business-digital-card" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/business-digital-card" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://culturescatalyst.github.io/business-digital-card" />
   </url>
-
   <url>
-    <loc>https://culturescatalyst.com/getp</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/getp" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/getp" />
-  </url>
-
-  <url>
-    <loc>https://culturescatalyst.com/ar/getp</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/getp" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/getp" />
-  </url>
-
-  <url>
-    <loc>https://culturescatalyst.com/business-digital-card</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/business-digital-card" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/business-digital-card" />
-  </url>
-
-  <url>
-    <loc>https://culturescatalyst.com/ar/business-digital-card</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.com/ar/business-digital-card" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.com/business-digital-card" />
-  </url>
-
-  <url>
-    <loc>https://culturescatalyst.com/under-construction</loc>
+    <loc>https://culturescatalyst.github.io/ar/business-digital-card</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://culturescatalyst.github.io/ar/business-digital-card" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://culturescatalyst.github.io/business-digital-card" />
   </url>
 
 </urlset>

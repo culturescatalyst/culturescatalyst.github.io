@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://culturescatalyst.com/sitemap.xml
+Sitemap: https://culturescatalyst.github.io/sitemap.xml
