@@ -2,8 +2,6 @@
 
 <img src="assets/images/cc-logo.png" alt="CultureCatalyst" width="200" />
 
-<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
-
 ### Transforming Cultures, Inspiring Excellence, Embracing Change
 
 [![Production Ready](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat-square)]()
@@ -11,6 +9,8 @@
 [![Responsive](https://img.shields.io/badge/Design-Responsive-teal?style=flat-square)]()
 [![PWA Ready](https://img.shields.io/badge/PWA-Ready-purple?style=flat-square)]()
 [![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-orange?style=flat-square)]()
+
+<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
 
 </div>
 
