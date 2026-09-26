@@ -2,7 +2,7 @@
 
 <img src="assets/images/cc-logo.png" alt="CultureCatalyst" width="200" />
 
-# CultureCatalyst
+<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
 
 ### Transforming Cultures, Inspiring Excellence, Embracing Change
 
@@ -13,10 +13,6 @@
 [![SEO Optimized](https://img.shields.io/badge/SEO-Optimized-orange?style=flat-square)]()
 
 </div>
-
-
-<img src="assets/images/cc-webpage-screen.png" alt="CultureCatalyst" />
-
 
 ---
 
