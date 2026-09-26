@@ -1,2 +1,0 @@
-# culturescatalyst.github.io
-
