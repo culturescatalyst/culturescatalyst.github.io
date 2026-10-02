@@ -9,6 +9,7 @@
       // Save the intended URL so index.html can restore the route via history.replaceState.
       (function () {
         sessionStorage.redirect = location.href;
+        sessionStorage.redirectAt = String(Date.now());
         // Redirect to the app root (custom domain) or project-page base
         var base = '/';
         location.replace(base);

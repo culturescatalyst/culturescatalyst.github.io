@@ -24,19 +24,27 @@
     <meta property="og:image" content="/og-default.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="/og-default.jpg">
-  <script type="module" crossorigin src="/assets/index-OKUMAH6B.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CZZmEI2n.css">
+  <script type="module" crossorigin src="/assets/index-DWXPIU-B.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-HjxKTh67.css">
 <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <script>
-      // GitHub Pages SPA fallback: restore the intended route from 404.html redirect
+      // GitHub Pages SPA fallback: restore the intended route from 404.html redirect.
+      // Guard against offline SW-cached loads: only restore if a real 404 redirect occurred.
       (function () {
         var redirect = sessionStorage.redirect;
-        if (redirect) {
+        var redirectAt = Number(sessionStorage.redirectAt || 0);
+        var isFreshRedirect = redirectAt > 0 && Date.now() - redirectAt < 10000;
+        if (redirect && isFreshRedirect && navigator.onLine) {
           delete sessionStorage.redirect;
-          // Replace the URL with the original deep link so BrowserRouter picks it up
+          delete sessionStorage.redirectAt;
           var url = redirect.replace(location.origin, '');
-          history.replaceState(null, '', url);
+          if (url && url !== location.pathname) {
+            history.replaceState(null, '', url);
+          }
+        } else if (redirectAt && Date.now() - redirectAt >= 10000) {
+          delete sessionStorage.redirect;
+          delete sessionStorage.redirectAt;
         }
       })();
     </script>
