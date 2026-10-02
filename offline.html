@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CultureCatalyst — Offline</title>
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #0a1f1d 0%, #102e2b 50%, #0f766e 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #e6f4f1;
+        -webkit-font-smoothing: antialiased;
+        padding: 24px;
+      }
+      .container {
+        max-width: 480px;
+        text-align: center;
+      }
+      .logo {
+        width: 72px;
+        height: auto;
+        margin: 0 auto 32px;
+        display: block;
+        filter: brightness(0) invert(1);
+      }
+      .icon-wrap {
+        width: 96px;
+        height: 96px;
+        margin: 0 auto 32px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .icon-wrap svg {
+        width: 40px;
+        height: 40px;
+        color: #e8a326;
+      }
+      h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #9fb8b5;
+        margin-bottom: 32px;
+      }
+      .accent { color: #e8a326; }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 28px;
+        border-radius: 999px;
+        background: #0f766e;
+        color: #ffffff;
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        transition: background 0.2s ease, transform 0.15s ease;
+      }
+      .btn:hover { background: #0d6a63; transform: translateY(-1px); }
+      .btn:active { transform: translateY(0); }
+      .btn svg { width: 18px; height: 18px; }
+      .brand {
+        margin-top: 48px;
+        font-size: 0.8125rem;
+        color: rgba(255, 255, 255, 0.35);
+        letter-spacing: 0.05em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="/assets/images/cc-logo.png" alt="CultureCatalyst" />
+      <div class="icon-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="1" y1="1" x2="23" y2="23" />
+          <path d="M16.72 11.06A10.94 10.94 0 0 1 19 12.55" />
+          <path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39" />
+          <path d="M10.71 5.05A16 16 0 0 1 22.58 9" />
+          <path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88" />
+          <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
+          <line x1="12" y1="20" x2="12.01" y2="20" />
+        </svg>
+      </div>
+      <h1>You're Offline</h1>
+      <p>
+        We can't reach the internet right now. But don't worry — if you've
+        visited this page before, most of the CultureCatalyst experience is
+        still available. Check your connection and try again.
+      </p>
+      <button class="btn" onclick="window.location.reload()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="23 4 23 10 17 10" />
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+        </svg>
+        Try Again
+      </button>
+      <p class="brand">CultureCatalyst — Transforming Cultures, Inspiring Excellence</p>
+    </div>
+  </body>
+</html>

@@ -3,9 +3,13 @@
   "short_name": "CultureCatalyst",
   "description": "Transforming Cultures, Inspiring Excellence, Embracing Change",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "background_color": "#f9fafb",
-  "theme_color": "#0d9488",
+  "orientation": "portrait-primary",
+  "background_color": "#0f766e",
+  "theme_color": "#0f766e",
+  "lang": "en",
+  "categories": ["business", "education"],
   "icons": [
     {
       "src": "/favicon-16x16.png",
@@ -38,7 +42,13 @@
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "/icon-192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
