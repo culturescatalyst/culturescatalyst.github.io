@@ -1,14 +1,17 @@
 /sw.js
-  Cache-Control: no-cache, no-store, must-revalidate
+  Content-Type: text/javascript; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
+  Service-Worker-Allowed: /
 
 /workbox-*.js
-  Cache-Control: no-cache, no-store, must-revalidate
+  Content-Type: text/javascript; charset=utf-8
+  Cache-Control: no-cache, must-revalidate
 
 /index.html
-  Cache-Control: no-cache, no-store, must-revalidate
+  Cache-Control: no-cache, must-revalidate
 
 /manifest.json
-  Cache-Control: no-cache, no-store, must-revalidate
+  Cache-Control: no-cache, must-revalidate
 
 /manifest.webmanifest
-  Cache-Control: no-cache, no-store, must-revalidate
+  Cache-Control: no-cache, must-revalidate
